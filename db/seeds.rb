@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-company = Company.create(name: 'ACME.INC')
+company = Company.create(name: 'ACME INC.')
 
 employee = Employee.create(company_id: 1, first_name:'Jane', last_name:'Doe', department:'Kitchen',
 position: 'Cook', active: true)
